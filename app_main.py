@@ -60,10 +60,10 @@ TEXT_DICT = {
         # --- Footer/Nota de Citação ---
         'app_footer': f"""
         ---
-        **FranzPy** | Versão {APP_VERSION} | Desenvolvido por [IMeT Group].
+        **FranzPy** | Versão {2.0} | Desenvolvido por Gustavo H. Rodrigues da Silva e Fabíola V. Carvalho.
         Este software é gratuito para fins acadêmicos e de pesquisa.
         **Citação:** Caso utilize este software em pesquisa publicada, cite-o como:
-        * [Carvalho, F. V. & Rodrigues da Silva, G. H.]. **FranzPy: Franz Cell Analyzer** (Versão {APP_VERSION}). [2025]. Disponível em [https://fluxiq.streamlit.app/].
+        * Rodrigues da Silva, G. H., & Carvalho, F. V. (2026). **FranzPy: An open-source Python tool to calculate and analyze data from Franz cell experiments** (v{2.0}). Zenodo. [https://doi.org/10.5281/zenodo.18328566].
         """,
         
     },
@@ -93,10 +93,10 @@ TEXT_DICT = {
         # --- Footer/Citation Note ---
         'app_footer': f"""
         ---
-        **FranzPy** | Version {APP_VERSION} | Developed by [IMeT Group].
+        **FranzPy** | Version {2.0} | Developed by Gustavo H. Rodrigues da Silva and Fabíola V. Carvalho.
         This software is free for academic and research purposes.
-        **Citation:** If you use this software in a published research, cite it as:
-        * [Carvalho, F. V. & Rodrigues da Silva, G. H.]. **FranzPy: Franz Cell Analyzer** (Version {APP_VERSION}). [2025]. Available at [https://fluxiq.streamlit.app/].
+        **Citation:** If you use this software in published research, please cite it as:
+        * Rodrigues da Silva, G. H., & Carvalho, F. V. (2026). **FranzPy: An open-source Python tool to calculate and analyze data from Franz cell experiments** (v{2.0}). Zenodo. [https://doi.org/10.5281/zenodo.18328566].
         """,
     }
 }
@@ -195,4 +195,5 @@ def main():
         render_permeation_app()
 
 if __name__ == "__main__":
+
     main()
